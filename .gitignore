@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+
+
+######################################################
+
+# SystemApp
+
+########################################################
+
+
+/CppSystemCase01/SystemApp/Debug
+/CppSystemCase01/SystemApp/x64
+/CppSystemCase01/SystemApp/x86
+/CppSystemCase01/SystemApp/SystemInfo/Debug
+/CppSystemCase01/SystemApp/SystemInfo/x64/Debug
+/CppSystemCase01/SystemApp/SystemInfo/x86/Debug
+/CppSystemCase01/SystemApp/.vs
+
+
+
+/CppSystemCase01/SystemApp/SystemInfo/Debug
+/CppSystemCase01/SystemApp/Debug
+/CppSystemCase01/SystemApp/.vs/SystemApp/v16
