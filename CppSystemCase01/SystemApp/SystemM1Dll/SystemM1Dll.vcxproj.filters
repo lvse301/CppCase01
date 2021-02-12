@@ -15,21 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SystemInfo.cpp">
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\Debug\SystemM1Dll.lib">
-      <Filter>资源文件</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\SystemM1Dll\m1.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemInfo.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
