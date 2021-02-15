@@ -142,11 +142,11 @@
     <ClCompile Include="SystemInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\Debug\SystemM1Dll.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\SystemM1Dll\m1.h" />
     <ClInclude Include="SystemInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\SystemM1Dll.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

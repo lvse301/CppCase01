@@ -20,16 +20,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\Debug\SystemM1Dll.lib">
-      <Filter>资源文件</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\SystemM1Dll\m1.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SystemInfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\SystemM1Dll.lib">
+      <Filter>资源文件</Filter>
+    </Library>
   </ItemGroup>
 </Project>
